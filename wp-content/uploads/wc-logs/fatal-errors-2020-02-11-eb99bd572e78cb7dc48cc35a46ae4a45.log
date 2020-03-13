@@ -1,0 +1,10 @@
+2020-02-11T09:32:53+00:00 CRITICAL Uncaught Error: Call to undefined function give_get_premium_add_ons() in /home/dh_ipv7kz/tenthlife.club/wp-content/plugins/give/includes/misc-functions.php:840
+Stack trace:
+#0 /home/dh_ipv7kz/tenthlife.club/wp-content/plugins/give/includes/misc-functions.php(2361): give_get_plugins(Array)
+#1 /home/dh_ipv7kz/tenthlife.club/wp-includes/class-wp-hook.php(288): give_refresh_licenses()
+#2 /home/dh_ipv7kz/tenthlife.club/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/dh_ipv7kz/tenthlife.club/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /home/dh_ipv7kz/tenthlife.club/wp-cron.php(138): do_action_ref_array('give_monthly_sc...', Array)
+#5 {main}
+  thrown in /home/dh_ipv7kz/tenthlife.club/wp-content/plugins/give/includes/misc-functions.php on line 840
+
