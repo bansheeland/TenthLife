@@ -44,13 +44,15 @@ get_header(); ?>
             </div>
             
             <div class="col-md-4">
-                <div class="br8 home_tres">
+                <a href="/about-us/">
+                    <div class="br8 home_tres">
                     <img src="https://www.tenthlife.club/wp-content/uploads/2019/10/Forte-LM.jpg" alt="Adopt cats in St. Louis" class="br8 ht3_img">
                     <div class="ht3">
                         <h2 class="white">Our Mission</h2>
                         <p class="white">Help Tenth Life continue to care for our cats with a donation</p>
                     </div>
                 </div>
+                </a>
             </div>
             
         </div>

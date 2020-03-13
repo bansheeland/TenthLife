@@ -225,28 +225,34 @@ body.nav-active .nav__content {
 	text-align: left;
 	font-size: 16px;
 	line-height: 1.5;
-	margin-bottom: 8px
+	margin-bottom: 0px
+}
+.nav__content li.center {
+    text-align: center
 }
 .nav__content li a:hover {
 	color: white
+}
+.nav__content h4.orange {
+    color: #e71
 }
 .nav__content li.contact_menu {
 	line-height: 1.8
 }
 
 .nav__content li a, .nav__content h4 {
-	color: #111;
+	color: #000;
 	line-height: 
 }
 .slide_in_nav_text_first li a {
-	color: white;
+	color: #e71;
 	opacity: 1;
 }
 .slide_in_nav_text_first li a:hover {
 	color: black;
 }
 .slide_in_nav_text_first li {
-	font-size: 35px;
+	font-size: 80px;
 	line-height: 1.5
 }
 .nav__content h4 {
@@ -549,7 +555,7 @@ body {
 .container {
 	padding-right: 0;
 	padding-left: 0;
-	width: 80%;
+	width: 90%;
 	position: relative;
     margin: auto;
 }
@@ -978,7 +984,7 @@ div.wpcf7-mail-sent-ok {
 .home_hero_block_text {
     position: absolute;
     width: 600px;
-    left: 10%;
+    left: 5%;
     top: 50%;
     transform: translateY(-50%);
 }

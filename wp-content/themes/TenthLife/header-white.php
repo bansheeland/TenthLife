@@ -44,7 +44,7 @@
 		<div class="slide_in_nav_text">
 			<div class="row eq">
 				<div class="col-md-7 slide_in_nav_text_first">
-					<li><a href="/adopt">Adopt A Cat</a></li>
+					<li><a href="/adopt">Adopt A Cats</a></li>
 				<li><a href="/foster/">Foster A Cat</a></li>
 					<li><a href="/in-the-community/">Get Invovled</a></li>
 					<li><a href="/all-about-cats/">Resources</a></li>

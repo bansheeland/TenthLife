@@ -32,14 +32,7 @@
 			<div class="footer_hours br10">
 				<img src="/img/footer-paw.svg" alt="Footer paw" class="footer_hours_paw">
 				<div class="row">
-					<div class="col-md-3 col-sm-4">
-						<h5>Adoption lounge</h5>
-						<p class="white">3202 Cherokee St.<br>St. Louis, MO 63118</p>
-					</div>
-					<div class="col-md-3 col-sm-4">
-						<h5>Visiting hours</h5>
-						<p class="white">Sat-Sun 12-5pm or by appointment* </p>
-					</div>
+					
 					<div class="col-md-6 col-sm-4">
 						<a href="/4444">
 							<button class="large footer_hours_btn">All contact Info</button>
