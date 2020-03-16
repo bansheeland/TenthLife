@@ -1,0 +1,34 @@
+[2020-02-29 05:47:08.072934] [INFO] Running sync controller loop - With allotted time: 26.87459897995 seconds
+[2020-02-29 05:47:08.074990] [INFO] Initating with remote and local host with remaining time:26.872529983521
+[2020-02-29 05:47:08.077649] [DEBUG] Calling initate remote service with url: https://www.tenthlife.club/wp-json/wpsynchro/v1/initiate/?type=local&frontend_ip=104.58.29.221
+[2020-02-29 05:47:08.245557] [DEBUG] Got initiate token: 4766f1668c7ded4eb4ce8a4f00b1b50fc55cd426282f0f4c659a4e8e83798e64
+[2020-02-29 05:47:08.245739] [DEBUG] Calling initate remote service with url: https://tenthlife.local/wp-json/wpsynchro/v1/initiate/?type=push
+[2020-02-29 05:47:09.391575] [DEBUG] Call to REST service at url https://tenthlife.local/wp-json/wpsynchro/v1/initiate/?type=push failed with HTTP error code:  - Will retry if there is time
+[2020-02-29 05:47:09.391740] [DEBUG] Entering retry with remaining time 26.560994
+[2020-02-29 05:47:09.391815] [DEBUG] Remote service 'https://tenthlife.local/wp-json/wpsynchro/v1/initiate/?type=push' failed with WP error: cURL error 6: Could not resolve host: tenthlife.local
+[2020-02-29 05:47:09.391887] [DEBUG] WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 6: Could not resolve host: tenthlife.local
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+[2020-02-29 05:47:09.391975] [CRITICAL] Failed initializing - Could not get a valid token from remote server
+[2020-02-29 05:47:09.392069] [INFO] Initation completed on: 1.3170969486237 seconds
+[2020-02-29 05:47:09.393797] [INFO] Ending sync controller loop - with remaining time: 25.553735971451
+[2020-02-29 05:47:21.327113] [INFO] Running sync controller loop - With allotted time: 26.857813119888 seconds
+[2020-02-29 05:47:21.327721] [INFO] Initating with remote and local host with remaining time:26.857187986374
+[2020-02-29 05:47:21.331167] [CRITICAL] Failed initializing - Could not get a valid token from local server
+[2020-02-29 05:47:21.331310] [CRITICAL] Failed initializing - Could not get a valid token from remote server
+[2020-02-29 05:47:21.331396] [INFO] Initation completed on: 0.0036811828613281 seconds
+[2020-02-29 05:47:21.332729] [INFO] Ending sync controller loop - with remaining time: 26.852180957794

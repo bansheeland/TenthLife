@@ -1,0 +1,10 @@
+2020-03-13T15:10:41+00:00 CRITICAL Uncaught Error: Call to undefined function give_get_premium_add_ons() in /Users/mattmckenna/Delt Dropbox/01-Clients/Tenth Life/03 - Development/TenthLife-WP/wp-content/plugins/give/includes/misc-functions.php:840
+Stack trace:
+#0 /Users/mattmckenna/Delt Dropbox/01-Clients/Tenth Life/03 - Development/TenthLife-WP/wp-content/plugins/give/includes/misc-functions.php(2361): give_get_plugins(Array)
+#1 /Users/mattmckenna/Delt Dropbox/01-Clients/Tenth Life/03 - Development/TenthLife-WP/wp-includes/class-wp-hook.php(288): give_refresh_licenses()
+#2 /Users/mattmckenna/Delt Dropbox/01-Clients/Tenth Life/03 - Development/TenthLife-WP/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /Users/mattmckenna/Delt Dropbox/01-Clients/Tenth Life/03 - Development/TenthLife-WP/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /Users/mattmckenna/Delt Dropbox/01-Clients/Tenth Life/03 - Development/TenthLife-WP/wp-cron.php(138): do_action_ref_array('give_monthly_sc...', Array)
+#5 {main}
+  thrown in /Users/mattmckenna/Delt Dropbox/01-Clients/Tenth Life/03 - Development/TenthLife-WP/wp-content/plugins/give/includes/misc-functions.php on line 840
+

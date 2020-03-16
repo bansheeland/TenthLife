@@ -1,0 +1,28 @@
+[2020-02-29 05:47:29.751196] [INFO] Running sync controller loop - With allotted time: 26.877833843231 seconds
+[2020-02-29 05:47:29.751981] [INFO] Initating with remote and local host with remaining time:26.877029895782
+[2020-02-29 05:47:29.753981] [DEBUG] Calling initate remote service with url: https://www.tenthlife.club/wp-json/wpsynchro/v1/initiate/?type=local&frontend_ip=104.58.29.221
+[2020-02-29 05:47:30.026830] [DEBUG] Got initiate token: 4c21ae888b04f6a0df7224398f30f03cd294956ad20ca8d4f18e2987e4dd069f
+[2020-02-29 05:47:30.026992] [DEBUG] Calling initate remote service with url: https://tenthlife.local/wp-json/wpsynchro/v1/initiate/?type=push
+[2020-02-29 05:47:31.158869] [DEBUG] Call to REST service at url https://tenthlife.local/wp-json/wpsynchro/v1/initiate/?type=push failed with HTTP error code:  - Will retry if there is time
+[2020-02-29 05:47:31.159033] [DEBUG] Entering retry with remaining time 26.476241
+[2020-02-29 05:47:31.159102] [DEBUG] Remote service 'https://tenthlife.local/wp-json/wpsynchro/v1/initiate/?type=push' failed with WP error: cURL error 6: Could not resolve host: tenthlife.local
+[2020-02-29 05:47:31.159168] [DEBUG] WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 6: Could not resolve host: tenthlife.local
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+[2020-02-29 05:47:31.159251] [CRITICAL] Failed initializing - Could not get a valid token from remote server
+[2020-02-29 05:47:31.159340] [INFO] Initation completed on: 1.4073610305786 seconds
+[2020-02-29 05:47:31.188154] [INFO] Ending sync controller loop - with remaining time: 25.440872907639
