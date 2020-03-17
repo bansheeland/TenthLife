@@ -56,7 +56,7 @@
                         <div class="row">
 							<div class="col-md-4 col-sm-12 slide_in_nav_text_second">
                             <div class="menu_click">
-                                <h4>Get Involved</h4>
+                                <h4>In The Community</h4>
                                 <li><a href="/in-the-community/">Get Involved</a></li>
                                 <li><a href="/foster/">Foster A Cat</a></li>
                                 <li><a href="/volunteer/">Volunteer</a></li>
