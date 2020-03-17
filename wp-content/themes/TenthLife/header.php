@@ -83,16 +83,18 @@
                                 <li><a href="/in-the-community/">Get Involved</a></li>
                                 <li><a href="/foster/">Foster A Cat</a></li>
                                 <li><a href="/volunteer/">Volunteer</a></li>
+								<li><a href="/Yoga/">Cats N' Mats Yoga</a></li>
                                 <li><a href="/in-the-community/upcoming-events/">Events</a></li>
-                                <li><a href="/donate/litter-mates/">Litter Mates</a></li>
                                 <li><a href="/about-us/our-shelter/">Adoption Lounge</a></li>
                             </div>
                             
                             <div class="divide40"></div>
                             
                             <div class="menu_click">
-                                <h4>Store</h4>
-                                <li><a href="/store/">Online Store</a></li>
+                                <h4>Donate/Shop</h4>
+                                <li><a href="/store/">Donate</a></li>
+								<li><a href="/donate/litter-mates/">Litter Mates</a></li>
+								<li><a href="/store/">Online Store (Soon)</a></li>
                             </div>
 
                         </div>
