@@ -27,14 +27,15 @@ get_header('white'); ?>
 	
 	<div class="contain2 tal">
 	<div class="row">
-		<div class="col-lg-9 col-sm-12">
+		<div class="col-lg-8 col-sm-12">
 			<div class="pd"></div>
 			<h2>Tenth Life Cat Rescue Foster Application and Contract</h2>
 			
 			<div class="inline_form">
-			<?php the_content(); ?>
+			<iframe height='1900px' src='https://petstablished.com/foster_form/713/generic' width='100%' style="max-width:100%;border: 1px solid #888"></iframe>
 			</div>
 		</div>
+		<div class="col-lg-1 col-sm-12"></div>
 		<div class="col-lg-3 col-sm-12">
 			<div class="gray_bg side_gray br10">
 				<h4>Related pages</h4>
